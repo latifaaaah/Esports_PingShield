@@ -1,0 +1,31 @@
+# Python environment and cache
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+*.pyo
+
+# Runtime data and databases
+data/
+*.sqlite*
+
+# Local backups
+backups/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local configuration
+settings.local.json
+
+# macOS files
+.DS_Store
+
+# Python build files
+*.egg-info/
+build/
+dist/
